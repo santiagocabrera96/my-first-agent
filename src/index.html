@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Santiago Cabrera - Software engineer focused on Clojure, JVM, and building production systems with clarity and depth.">
+    <title>Santiago Cabrera</title>
+    <style>
+        /* ========================================
+           CSS Reset & Base Styles
+           ======================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #fafafa;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ========================================
+           Layout Container
+           ======================================== */
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        /* ========================================
+           Typography
+           ======================================== */
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 1.2;
+            color: #0a0a0a;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #4a5568;
+            margin-bottom: 1rem;
+            margin-top: 3rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #2d3748;
+        }
+
+        a {
+            color: #2c5282;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease;
+        }
+
+        a:hover,
+        a:focus {
+            border-bottom-color: #2c5282;
+            outline: none;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1rem;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: #2d3748;
+        }
+
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #2c5282;
+            font-weight: bold;
+        }
+
+        /* ========================================
+           Header / Hero Section
+           ======================================== */
+        header {
+            margin-bottom: 3rem;
+        }
+
+        .tagline {
+            font-size: 1.125rem;
+            color: #4a5568;
+            margin-bottom: 1.5rem;
+        }
+
+        .intro {
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        /* ========================================
+           Main Sections
+           ======================================== */
+        main {
+            margin-bottom: 3rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ========================================
+           Contact Section
+           ======================================== */
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .contact-links a {
+            font-weight: 500;
+        }
+
+        /* ========================================
+           Footer
+           ======================================== */
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 0.875rem;
+        }
+
+        /* ========================================
+           Responsive Design
+           ======================================== */
+        @media (min-width: 768px) {
+            .container {
+                padding: 4rem 2rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+                margin-top: 4rem;
+            }
+
+            .tagline {
+                font-size: 1.25rem;
+            }
+
+            footer {
+                margin-top: 5rem;
+            }
+        }
+
+        /* ========================================
+           Accessibility
+           ======================================== */
+        a:focus-visible {
+            outline: 2px solid #2c5282;
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header / Hero Section -->
+    <header role="banner">
+        <h1>Santiago Cabrera</h1>
+        <p class="tagline">Software engineer focused on Clojure, the JVM, and building production systems with clarity and depth.</p>
+        <p class="intro">
+            I'm interested in understanding systems end to end—not just writing code, but deploying complete ideas into production and deeply understanding what
+            happens underneath: network calls, observability, telemetry, performance, and security.
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- What I'm Building / Learning -->
+        <section aria-labelledby="building">
+            <h2 id="building">What I'm Building</h2>
+            <p>
+                In 2026, my main technical goal is to build and deploy a full production system from scratch using Clojure and Datomic. This includes:
+            </p>
+            <ul>
+                <li>Setting up cloud infrastructure from an empty AWS account</li>
+                <li>Building and packaging a JVM application</li>
+                <li>Deploying and operating it in production</li>
+                <li>Creating and connecting to a Datomic database</li>
+                <li>Instrumenting the system for observability</li>
+                <li>Understanding data formats and binary protocols (e.g., Fressian)</li>
+            </ul>
+        </section>
+
+        <!-- How I Think / Work -->
+        <section aria-labelledby="approach">
+            <h2 id="approach">How I Work</h2>
+            <p>
+                I value <strong>clarity, depth, and first-principles understanding</strong> over speed or abstraction. I prefer simple, explicit systems and minimal
+                designs that reveal how things work rather than hiding complexity.
+            </p>
+            <p>
+                My problem-solving approach is influenced by Theory of Constraints (inspired by <em>The Haystack Syndrome</em> by Eliyahu M. Goldratt). I focus on
+                identifying bottlenecks, reducing noise, and improving flow.
+            </p>
+            <p>
+                I care about long-term learning, technical craftsmanship, and building things that are correct, understandable, and maintainable. I prefer concise
+                communication and calm, precise language.
+            </p>
+            <p>
+                My ideal workday includes deep focus, structured time blocks, and steady progress rather than constant context switching.
+            </p>
+        </section>
+
+        <!-- Contact / Now -->
+        <section aria-labelledby="contact">
+            <h2 id="contact">Open To</h2>
+            <p>
+                I'm interested in thoughtful collaboration, learning-focused discussions, and building real systems—not hype-driven projects or purely
+                marketing-oriented work.
+            </p>
+            <p>
+                I value meaningful relationships, consistency, and sustainable daily routines. If you're working on something that aligns with clarity, depth, and
+                craftsmanship, I'd be interested in hearing from you.
+            </p>
+            <nav class="contact-links" aria-label="Contact information">
+                <a href="mailto:your.email@example.com" aria-label="Send email">Email</a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+            </nav>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <p>&copy; 2026 Santiago Cabrera</p>
+    </footer>
+</div>
+</body>
+</html>

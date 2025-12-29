@@ -144,6 +144,7 @@ my-first-agent/ ├── specs/ # 📋 Specifications (read-only for agent) ├
 
 🌐 **[View Live Site]** - [URL added after deployment]
 
+https://santiagocabrera96.github.io/my-first-agent/
 
 
 ---

@@ -10,6 +10,11 @@ Success criteria: A visitor understands who I am and my direction within 10 seco
 Success criteria: The page fits in 1–2 scrolls and feels accurate, calm, and shareable.
 
 Here's my personal context:
+
+Email: santiago.cabrera.silva@gmail.com
+Github: https://github.com/santiagocabrera96
+LinkedIn: https://www.linkedin.com/in/santiago-cabrera-silva-a3978315a/
+
 Personal Context Summary
 
 I am a software engineer with a strong focus on Clojure, the JVM, and understanding systems end to end. My primary interest is not just writing code, but deploying complete ideas into production and deeply understanding what happens underneath—network calls, observability, telemetry, performance, and security.
